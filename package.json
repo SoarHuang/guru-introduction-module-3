@@ -1,0 +1,24 @@
+{
+  "name": "guru-introduction-module-3",
+  "version": "1.0.0",
+  "description": "Getting started with Webpack",
+  "main": "index.js",
+  "repository": "git@github.com:MeldCX/guru-introduction-module-3.git",
+  "author": "Tristan Matthias <tristan@meld.cx>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "http-server dist",
+    "start": "yarn build -- -w & yarn serve"
+  },
+  "dependencies": {
+    "@meldcx/glow": "^1.1.4",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0"
+  }
+}

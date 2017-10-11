@@ -1,0 +1,15 @@
+// Use the Glow CSS framework.
+// The tilde (~) is used to tell webpack to use an alias in Sass
+// NOTE: This is using an alias configured in webpack.config.js
+@import "~glow/base";
+
+// Import the Sass helpers from the glow framework
+@import "~glow/helpers/import";
+
+
+.clock {
+    // NOTE: These color and size functions are included from Glow
+    border: 1px solid color('shade-3');
+    padding: size('small');
+    width: 20rem;
+}
